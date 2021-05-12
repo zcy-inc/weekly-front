@@ -1,0 +1,38 @@
+.card-wrapper {
+  padding: 0 5%;
+  background-color: #f4f4f4;
+  .weekly__list {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .weekly__item {
+    display: inline-block;
+    margin: 1.5rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 4px;
+    transition: transform 0.2s linear;
+    box-shadow: 0 2px 0 rgba(170, 170, 170, 0.1);
+  }
+  .weekly__item__url {
+    display: block;
+    text-decoration: none;
+  }
+  .weekly__item:hover {
+    transform: translate3d(0, -3px, 0);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .weekly__item__cover {
+    display: block;
+    width: 240px;
+    height: 180px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .weekly__item__title {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: Pacifico, cursive;
+    color: #666;
+  }
+}

@@ -1,0 +1,21 @@
+p.cnzz_p_wrapper {
+  background: #2e3032;
+  color: #cccccc;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 3rem;
+}
+
+#cnzz_stat_icon_1275915533 a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.record-filling {
+  display: block;
+  white-space: pre;
+}

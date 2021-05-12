@@ -1,0 +1,142 @@
+.detail-container {
+  padding: 3rem 6%;
+  display: flex;
+  background-color: #f4f4f4;
+
+  .detail {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .title time {
+    margin-left: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #333;
+  }
+
+  .list {
+    padding-right: 12rem;
+  }
+
+  .item {
+    list-style: circle inside;
+    margin-bottom: 1.6rem;
+  }
+
+  .item h4 {
+    display: inline-block;
+    line-height: 1.6;
+    font-weight: normal;
+    max-width: 90%;
+    vertical-align: middle;
+  }
+
+  .item a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #2466dc;
+    vertical-align: middle;
+  }
+
+  .item a:hover {
+    color: #1d25dc;
+  }
+
+  .item__tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 9px;
+    line-height: 1;
+    background: #eaeaea;
+    border-radius: 3px;
+    color: #555;
+    vertical-align: top;
+    margin-left: 0.4rem;
+  }
+
+  .item blockquote {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #444;
+  }
+
+  /* aside */
+  aside {
+    width: 400px;
+  }
+
+  .aside__title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .weekly_list {
+    margin-bottom: 3rem;
+  }
+
+  .weekly_list li {
+    list-style: circle inside;
+    line-height: 2;
+  }
+
+  .weekly_list a {
+    text-decoration: none;
+    color: #2484a0;
+  }
+
+  .weekly_list a:hover {
+    color: #1359a0;
+  }
+
+  .weekly_list h4 {
+    display: inline-block;
+    font-weight: normal;
+  }
+
+  .tags {
+    padding-right: 2rem;
+  }
+
+  .tags li {
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .tags a {
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 26px;
+    font-size: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    border: 1px solid rgba(64, 158, 255, 0.2);
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s linear;
+  }
+
+  .tags a:hover {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 414px) {
+  .detail-container {
+    display: block;
+
+    .list {
+      padding-right: 0;
+      margin-bottom: 3rem;
+    }
+  }
+}

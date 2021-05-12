@@ -1,0 +1,8 @@
+{
+  "presets": ["env", "react", "stage-0"],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-decorators-legacy",
+    "add-module-exports"
+  ]
+}

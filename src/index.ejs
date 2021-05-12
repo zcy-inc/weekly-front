@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta
+      name="keyword"
+      content="政采云,前端开发,前端,前端团队,前端周刊,前端小报,前端博客,前端技术,前端分享,前端培训,前端布道"
+    />
+    <meta
+      name="description"
+      content="Zoo Weekly!，是政采云前端团队维护的前端技术文章周刊，每周更新一期，筛选推荐近一周内更值得阅读的前端技术文章。"
+    />
+    <% if(htmlWebpackPlugin.options.isHttps) { %>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <% } %>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      const cnzz_tag = document.createElement('p')
+      cnzz_tag.className = 'cnzz_p_wrapper'
+      const span_tag = document.createElement('span')
+      const cnzz_wrapper = document.createElement('span')
+      cnzz_wrapper.id = 'cnzz_stat_icon_1275915533'
+
+      span_tag.className = 'record-filling'
+      span_tag.innerText = '浙ICP备19000635号 | '
+      // cnzz_tag.id = 'cnzz_stat_icon_1275915533'
+      const cnzz_script = document.createElement('script')
+      cnzz_script.type = 'text/javascript'
+      cnzz_script.async = true
+      cnzz_script.charset = 'utf-8'
+      cnzz_script.src = 'https://s5.cnzz.com/z_stat.php?id=1275915533&web_id=1275915533';
+      cnzz_wrapper.appendChild(cnzz_script)
+      cnzz_tag.append(span_tag, cnzz_wrapper)
+      document.body.appendChild(cnzz_tag);
+    </script>
+  </body>
+</html>

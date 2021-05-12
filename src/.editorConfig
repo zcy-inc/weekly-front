@@ -1,0 +1,9 @@
+root = true                     # 表示当前是项目根目录
+
+[*]                             # 所有文件都使用配置
+charset = utf-8                 # 编码格式
+indent_style = space            # Tab键缩进的样式，由space和table两种 一般代码中是space
+indent_size = 2                 # 缩进size为2
+end_of_line = lf                # 以lf换行 默认win为crlf mac和linux为lf
+insert_final_newline = true     # 末尾加一行空行
+trim_trailing_whitespace = true # 去掉行尾多余空格
