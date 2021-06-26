@@ -39,4 +39,15 @@
   a:hover {
     color: gainsboro;
   }
+  .rss {
+    width: 32px;
+    position: relative;
+    top: 10px;
+    &:hover{
+      -webkit-transform:rotate(360deg);
+      transform:rotate(360deg);
+      -webkit-transition:-webkit-transform 0.5s linear;
+      transition:transform 0.5s linear;
+    }
+  }
 }
